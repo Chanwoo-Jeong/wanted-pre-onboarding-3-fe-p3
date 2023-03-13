@@ -9,12 +9,19 @@ const isLoggedIn = async (): Promise<boolean> => {
 
 const Login = () => {
   const { routeTo } = useRouter()
+  
   const loginSubmitHandler = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     // FormData를 이용해서 로그인 시도
     const formData = new FormData(event.currentTarget)
 
     // TODO 3-2.: 이미 로그인된 상태라면 page-a로 라우팅
+    const userProfileResponse = await getCurrentUserInfo()
+    console.log(userProfileResponse)
+    if(userProfileResponse !== null) {
+      routeTo(`/pageA`)
+      return
+    }
 
     const loginResult = await login({
       username: formData.get('username') as string,
@@ -22,6 +29,8 @@ const Login = () => {
     })
 
     // TODO 3-1.: 로그인 실패시 함수 종료. 로그인 성공시 '/page-a'로 이동
+    if(loginResult === 'fail') return alert("로그인 실패")
+    routeTo('/pageA')
   }
 
   return (<div className="non-logged-in-body">
