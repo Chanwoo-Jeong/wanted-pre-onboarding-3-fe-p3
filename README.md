@@ -1,6 +1,9 @@
 # Wanted Pre-onboarding 3월 FE 코스 3일차 실습
 
 > 3일차 실습을 위한 스켈레톤 코드 및 샘플 서버입니다. 강의를 듣고 설명에 따라 실습을 진행해보세요!
+## Chrome 실행
+cmd에서
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="C:\chrome"
 
 ## 서버 실행 방법
 예제 서버에는 세션 로그인 기능이 구현되어 있습니다.
