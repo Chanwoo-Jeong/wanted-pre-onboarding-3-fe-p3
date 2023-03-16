@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42a45757-e265-4400-b733-d2eb7455c3b6" name="Changes" comment="">
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/api/login.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/login.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Sidebar.tsx" afterDir="false" />
+>>>>>>> 35becb7f7bfa224e9450183ee56a096a25eb9eca
       <change beforePath="$PROJECT_DIR$/client/src/pages/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Login.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +21,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="answer" />
+                    <option name="lastUsedInstant" value="1678618473" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1678618098" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+>>>>>>> 35becb7f7bfa224e9450183ee56a096a25eb9eca
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -58,6 +92,11 @@
       <workItem from="1678454581575" duration="9251000" />
       <workItem from="1678494861409" duration="4626000" />
       <workItem from="1678596382760" duration="6850000" />
+<<<<<<< HEAD
+=======
+      <workItem from="1678618315996" duration="1379000" />
+      <workItem from="1678619760417" duration="664000" />
+>>>>>>> 35becb7f7bfa224e9450183ee56a096a25eb9eca
     </task>
     <servers />
   </component>
